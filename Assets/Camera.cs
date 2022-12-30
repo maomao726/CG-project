@@ -13,9 +13,9 @@ public class Camera : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKey("w")){transform.Translate(0,0,0.05f, Space.World);}
-        if(Input.GetKey("s")){transform.Translate(0,0,-0.05f, Space.World);}
-        if(Input.GetKey("d")){transform.Translate(0.05f,0,0, Space.World);}
-        if(Input.GetKey("a")){transform.Translate(-0.05f,0,0, Space.World);}
+        if(Input.GetKey("w")){transform.Translate(0,0,0.07f, Space.Self);}
+        if(Input.GetKey("s")){transform.Translate(0,0,-0.07f, Space.Self);}
+        if(Input.GetKey("d")){transform.Translate(0.07f,0,0, Space.Self);}
+        if(Input.GetKey("a")){transform.Translate(-0.07f,0,0, Space.Self);}
     }
 }
