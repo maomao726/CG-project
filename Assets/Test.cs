@@ -13,8 +13,5 @@ public class Test : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Mesh mesh = GetComponent<MeshFilter>().mesh;
-        Vector3 p = mesh.vertices[30];
-        Debug.Log(p);
     }
 }

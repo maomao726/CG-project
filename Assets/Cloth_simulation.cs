@@ -1,4 +1,4 @@
-using System;
+// using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -7,8 +7,10 @@ using UnityEngine;
 
 public class Cloth_simulation : MonoBehaviour{
     // public setting variables
-    public Vector3 pWIND;
     public List<int> pFIXINDEX;
+
+    // static variables
+    static Vector3 wind;
 
     // private variables
     Mesh mesh;
@@ -21,6 +23,7 @@ public class Cloth_simulation : MonoBehaviour{
     // Start is called before the first frame update
     void Start(){   
         // initilize variables
+        wind = new Vector3(0.0f, 0.0f, 0.0f);
         mesh = GetComponent<MeshFilter>().mesh;
         particles = new Particles(mesh.vertices, pFIXINDEX);
         triangles = new List<Triangle>();
@@ -111,12 +114,24 @@ public class Cloth_simulation : MonoBehaviour{
 
     // Update is called once per frame
     void Update(){
+        ControlWind();
         ResetForce();
         ApplySpringDamperForce();
         ApplyWindForce();
         Move();
         mesh.vertices = particles.vert.ToArray();
         mesh.RecalculateNormals();
+    }
+
+    void ControlWind(){
+        float step = 0.01f;
+        if(Input.GetKey("z")){ wind.x += step; }
+        else if(Input.GetKey("x")){ wind.x -= step; }
+        else if(Input.GetKey("c")){ wind.y += step; }
+        else if(Input.GetKey("v")){ wind.y -= step; }
+        else if(Input.GetKey("b")){ wind.z += step; }
+        else if(Input.GetKey("n")){ wind.z -= step; }
+        print("wind(" + wind.x + ", " + wind.y + ", " + wind.z + ")");
     }
 
     void ResetForce(){
@@ -180,6 +195,17 @@ public class Cloth_simulation : MonoBehaviour{
     }
 
     void ApplyWindForce(){
+        // generate random wind coefficient
+        Vector3 wind_coef = new Vector3(
+            /*1.0f + (Random.Range() - 0.5f) * 0.4f,
+            1.0f + (random.NextDouble() - 0.5f) * 0.4f,
+            1.0f + (random.NextDouble() - 0.5f) * 0.4f*/
+
+            Random.Range(0.0f, 2.0f),
+            Random.Range(0.0f, 2.0f),
+            Random.Range(0.0f, 2.0f)
+        );
+        
         for(int i = 0; i < triangles.Count; i++){
             // calculate area of this triangle
             Vector3 v1 = particles.vert[triangles[i].idx2] - particles.vert[triangles[i].idx1];
@@ -195,10 +221,10 @@ public class Cloth_simulation : MonoBehaviour{
                             particles.vel[triangles[i].idx3]) / 3.0f;
             
             // close speed = speed difference between triangle and wind 
-            Vector3 velc = velt - pWIND;
+            Vector3 velc = velt - Vector3.Scale(wind, wind_coef);
 
             // larger cross area will get large force by wind
-            float crossarea = (velc.magnitude==0) ? 0 : area * Vector3.Dot(velc, norm) / velc.magnitude;
+            float crossarea = (velc.magnitude == 0) ? 0 : area * Vector3.Dot(velc, norm) / velc.magnitude;
 
             // apply force, note that each vertex will get only 1/3 of this force
             Vector3 force = - (Vector3.Dot(velc, velc) * crossarea * norm * 0.5f) / 3.0f;
@@ -209,10 +235,11 @@ public class Cloth_simulation : MonoBehaviour{
     }
 
     void Move(){
-        for(int i=0;i<particles.size;i++){
+        float step = 0.01f;
+        for(int i = 0; i < particles.size; i++){
             if(!particles.fix[i]){
-                particles.vel[i] += 0.01f * particles.acc[i];
-                particles.vert[i] += 0.01f * particles.vel[i];
+                particles.vel[i] += step * particles.acc[i];
+                particles.vert[i] += step * particles.vel[i];
             }
         }
     }
@@ -234,12 +261,12 @@ public class Particles{
         for(int i = 0; i < _vert.Length; i++){
             vert.Add(_vert[i]);
         }
-        for(int i=0; i < size; i++){
+        for(int i = 0; i < size; i++){
             vel.Add(new Vector3());
             acc.Add(new Vector3());
             fix.Add(false);
         }
-        for(int i=0;i<_pfixindex.Count;i++){
+        for(int i = 0; i < _pfixindex.Count; i++){
             fix[_pfixindex[i]] = true;
         }
     }

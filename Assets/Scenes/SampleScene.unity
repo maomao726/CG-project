@@ -231,8 +231,8 @@ GameObject:
   - component: {fileID: 2172674}
   - component: {fileID: 2172673}
   m_Layer: 0
-  m_Name: Plane (6)
-  m_TagString: Untagged
+  m_Name: buy1get1free
+  m_TagString: Flag
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -286,7 +286,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b778ede3c6a816f469b686b19ee5de39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pWIND: {x: 0, y: 20, z: 0}
   pFIXINDEX: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a000000
 --- !u!23 &2172674
 MeshRenderer:
@@ -667,7 +666,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b778ede3c6a816f469b686b19ee5de39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pWIND: {x: 0, y: 25, z: 0}
   pFIXINDEX: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a000000
 --- !u!23 &64664452
 MeshRenderer:
@@ -793,7 +791,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b778ede3c6a816f469b686b19ee5de39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pWIND: {x: 0, y: 10, z: 0}
   pFIXINDEX: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a000000
 --- !u!23 &72536162
 MeshRenderer:
@@ -1254,7 +1251,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b778ede3c6a816f469b686b19ee5de39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pWIND: {x: 0, y: 20, z: 0}
   pFIXINDEX: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a000000
 --- !u!23 &92794255
 MeshRenderer:
@@ -1380,7 +1376,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b778ede3c6a816f469b686b19ee5de39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pWIND: {x: 0, y: 5, z: 0}
   pFIXINDEX: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a000000
 --- !u!23 &97282905
 MeshRenderer:
@@ -1654,7 +1649,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b778ede3c6a816f469b686b19ee5de39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pWIND: {x: 0, y: 20, z: 0}
   pFIXINDEX: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a000000
 --- !u!23 &119658964
 MeshRenderer:
@@ -1816,7 +1810,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b778ede3c6a816f469b686b19ee5de39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pWIND: {x: 0, y: 5, z: 0}
   pFIXINDEX: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a000000
 --- !u!23 &181095175
 MeshRenderer:
@@ -1942,7 +1935,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b778ede3c6a816f469b686b19ee5de39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pWIND: {x: 0, y: 25, z: 0}
   pFIXINDEX: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a000000
 --- !u!23 &181271999
 MeshRenderer:
@@ -2566,7 +2558,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b778ede3c6a816f469b686b19ee5de39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pWIND: {x: 0, y: 5, z: 0}
   pFIXINDEX: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a000000
 --- !u!23 &226529809
 MeshRenderer:
@@ -3123,7 +3114,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b778ede3c6a816f469b686b19ee5de39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pWIND: {x: 0, y: 5, z: 0}
   pFIXINDEX: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a000000
 --- !u!23 &260131258
 MeshRenderer:
@@ -3430,7 +3420,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b778ede3c6a816f469b686b19ee5de39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pWIND: {x: 0, y: 25, z: 0}
   pFIXINDEX: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a000000
 --- !u!23 &275863186
 MeshRenderer:
@@ -3556,7 +3545,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b778ede3c6a816f469b686b19ee5de39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pWIND: {x: 0, y: 5, z: 0}
   pFIXINDEX: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a000000
 --- !u!23 &283045646
 MeshRenderer:
@@ -3834,7 +3822,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b778ede3c6a816f469b686b19ee5de39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pWIND: {x: 0, y: 5, z: 0}
   pFIXINDEX: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a000000
 --- !u!23 &301748516
 MeshRenderer:
@@ -4062,7 +4049,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b778ede3c6a816f469b686b19ee5de39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pWIND: {x: 0, y: 5, z: 0}
   pFIXINDEX: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a000000
 --- !u!23 &324251162
 MeshRenderer:
@@ -4617,7 +4603,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b778ede3c6a816f469b686b19ee5de39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pWIND: {x: 0, y: 25, z: 0}
   pFIXINDEX: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a000000
 --- !u!23 &384513152
 MeshRenderer:
@@ -4743,7 +4728,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b778ede3c6a816f469b686b19ee5de39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pWIND: {x: 0, y: 10, z: 0}
   pFIXINDEX: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a000000
 --- !u!23 &389524839
 MeshRenderer:
@@ -4869,7 +4853,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b778ede3c6a816f469b686b19ee5de39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pWIND: {x: 0, y: 10, z: 0}
   pFIXINDEX: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a000000
 --- !u!23 &390906877
 MeshRenderer:
@@ -5049,7 +5032,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b778ede3c6a816f469b686b19ee5de39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pWIND: {x: 0, y: 5, z: 0}
   pFIXINDEX: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a000000
 --- !u!23 &441280019
 MeshRenderer:
@@ -5175,7 +5157,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b778ede3c6a816f469b686b19ee5de39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pWIND: {x: 0, y: 5, z: 0}
   pFIXINDEX: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a000000
 --- !u!23 &480090179
 MeshRenderer:
@@ -5301,7 +5282,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b778ede3c6a816f469b686b19ee5de39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pWIND: {x: 0, y: 5, z: 0}
   pFIXINDEX: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a000000
 --- !u!23 &507074849
 MeshRenderer:
@@ -5614,7 +5594,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b778ede3c6a816f469b686b19ee5de39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pWIND: {x: 0, y: 25, z: 0}
   pFIXINDEX: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a000000
 --- !u!23 &528310902
 MeshRenderer:
@@ -6411,7 +6390,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b778ede3c6a816f469b686b19ee5de39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pWIND: {x: 0, y: 25, z: 0}
   pFIXINDEX: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a000000
 --- !u!23 &672266345
 MeshRenderer:
@@ -7121,7 +7099,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b778ede3c6a816f469b686b19ee5de39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pWIND: {x: 0, y: 25, z: 0}
   pFIXINDEX: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a000000
 --- !u!23 &706488840
 MeshRenderer:
@@ -7313,7 +7290,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b778ede3c6a816f469b686b19ee5de39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pWIND: {x: 0, y: 5, z: 0}
   pFIXINDEX: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a000000
 --- !u!23 &716618069
 MeshRenderer:
@@ -7472,7 +7448,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b778ede3c6a816f469b686b19ee5de39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pWIND: {x: 0, y: 5, z: 0}
   pFIXINDEX: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a000000
 --- !u!23 &723296569
 MeshRenderer:
@@ -7598,7 +7573,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b778ede3c6a816f469b686b19ee5de39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pWIND: {x: 0, y: 5, z: 0}
   pFIXINDEX: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a000000
 --- !u!23 &729284452
 MeshRenderer:
@@ -7724,7 +7698,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b778ede3c6a816f469b686b19ee5de39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pWIND: {x: 0, y: 10, z: 0}
   pFIXINDEX: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a000000
 --- !u!23 &729686707
 MeshRenderer:
@@ -8013,7 +7986,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b778ede3c6a816f469b686b19ee5de39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pWIND: {x: 0, y: 25, z: 0}
   pFIXINDEX: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a000000
 --- !u!23 &760605519
 MeshRenderer:
@@ -8139,7 +8111,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b778ede3c6a816f469b686b19ee5de39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pWIND: {x: 0, y: 25, z: 0}
   pFIXINDEX: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a000000
 --- !u!23 &767087266
 MeshRenderer:
@@ -8346,7 +8317,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b778ede3c6a816f469b686b19ee5de39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pWIND: {x: 0, y: 5, z: 0}
   pFIXINDEX: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a000000
 --- !u!23 &793155750
 MeshRenderer:
@@ -8636,7 +8606,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b778ede3c6a816f469b686b19ee5de39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pWIND: {x: 0, y: 10, z: 0}
   pFIXINDEX: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a000000
 --- !u!23 &810385347
 MeshRenderer:
@@ -8762,7 +8731,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b778ede3c6a816f469b686b19ee5de39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pWIND: {x: 0, y: 5, z: 0}
   pFIXINDEX: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a000000
 --- !u!23 &816130853
 MeshRenderer:
@@ -9046,7 +9014,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b778ede3c6a816f469b686b19ee5de39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pWIND: {x: 0, y: 5, z: 0}
   pFIXINDEX: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a000000
 --- !u!23 &860909869
 MeshRenderer:
@@ -9463,7 +9430,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b778ede3c6a816f469b686b19ee5de39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pWIND: {x: 0, y: 20, z: 0}
   pFIXINDEX: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a000000
 --- !u!23 &925250927
 MeshRenderer:
@@ -9812,7 +9778,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b778ede3c6a816f469b686b19ee5de39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pWIND: {x: 0, y: 5, z: 0}
   pFIXINDEX: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a000000
 --- !u!23 &960294634
 MeshRenderer:
@@ -9938,7 +9903,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b778ede3c6a816f469b686b19ee5de39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pWIND: {x: 0, y: 10, z: 0}
   pFIXINDEX: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a000000
 --- !u!23 &961501596
 MeshRenderer:
@@ -10635,7 +10599,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b778ede3c6a816f469b686b19ee5de39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pWIND: {x: 0, y: 5, z: 0}
   pFIXINDEX: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a000000
 --- !u!23 &1030295001
 MeshRenderer:
@@ -10761,7 +10724,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b778ede3c6a816f469b686b19ee5de39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pWIND: {x: 0, y: 5, z: 0}
   pFIXINDEX: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a000000
 --- !u!23 &1030920400
 MeshRenderer:
@@ -11056,7 +11018,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b778ede3c6a816f469b686b19ee5de39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pWIND: {x: 0, y: 5, z: 0}
   pFIXINDEX: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a000000
 --- !u!23 &1068022205
 MeshRenderer:
@@ -11334,7 +11295,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b778ede3c6a816f469b686b19ee5de39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pWIND: {x: 0, y: 25, z: 0}
   pFIXINDEX: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a000000
 --- !u!23 &1096117962
 MeshRenderer:
@@ -11526,7 +11486,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b778ede3c6a816f469b686b19ee5de39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pWIND: {x: 0, y: 10, z: 0}
   pFIXINDEX: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a000000
 --- !u!23 &1106204973
 MeshRenderer:
@@ -11850,7 +11809,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b778ede3c6a816f469b686b19ee5de39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pWIND: {x: 0, y: 10, z: 0}
   pFIXINDEX: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a000000
 --- !u!23 &1175626420
 MeshRenderer:
@@ -11976,7 +11934,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b778ede3c6a816f469b686b19ee5de39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pWIND: {x: 0, y: 5, z: 0}
   pFIXINDEX: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a000000
 --- !u!23 &1192536056
 MeshRenderer:
@@ -12394,7 +12351,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b778ede3c6a816f469b686b19ee5de39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pWIND: {x: 0, y: 5, z: 0}
   pFIXINDEX: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a000000
 --- !u!23 &1281711977
 MeshRenderer:
@@ -12520,7 +12476,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b778ede3c6a816f469b686b19ee5de39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pWIND: {x: 0, y: 5, z: 0}
   pFIXINDEX: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a000000
 --- !u!23 &1287030552
 MeshRenderer:
@@ -12646,7 +12601,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b778ede3c6a816f469b686b19ee5de39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pWIND: {x: 0, y: 5, z: 0}
   pFIXINDEX: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a000000
 --- !u!23 &1288600878
 MeshRenderer:
@@ -12772,7 +12726,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b778ede3c6a816f469b686b19ee5de39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pWIND: {x: 0, y: 10, z: 0}
   pFIXINDEX: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a000000
 --- !u!23 &1300089038
 MeshRenderer:
@@ -13118,7 +13071,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b778ede3c6a816f469b686b19ee5de39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pWIND: {x: 0, y: 5, z: 0}
   pFIXINDEX: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a000000
 --- !u!23 &1313558562
 MeshRenderer:
@@ -13244,7 +13196,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b778ede3c6a816f469b686b19ee5de39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pWIND: {x: 0, y: 5, z: 0}
   pFIXINDEX: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a000000
 --- !u!23 &1316318372
 MeshRenderer:
@@ -14098,7 +14049,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b778ede3c6a816f469b686b19ee5de39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pWIND: {x: 0, y: 10, z: 0}
   pFIXINDEX: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a000000
 --- !u!23 &1414554161
 MeshRenderer:
@@ -14309,7 +14259,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b778ede3c6a816f469b686b19ee5de39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pWIND: {x: 0, y: 20, z: 0}
   pFIXINDEX: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a000000
 --- !u!23 &1431777208
 MeshRenderer:
@@ -14685,7 +14634,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b778ede3c6a816f469b686b19ee5de39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pWIND: {x: 0, y: 10, z: 0}
   pFIXINDEX: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a000000
 --- !u!23 &1453986880
 MeshRenderer:
@@ -14963,7 +14911,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b778ede3c6a816f469b686b19ee5de39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pWIND: {x: 0, y: 5, z: 0}
   pFIXINDEX: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a000000
 --- !u!23 &1462726416
 MeshRenderer:
@@ -15278,7 +15225,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b778ede3c6a816f469b686b19ee5de39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pWIND: {x: 0, y: 5, z: 0}
   pFIXINDEX: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a000000
 --- !u!23 &1488338252
 MeshRenderer:
@@ -15588,7 +15534,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b778ede3c6a816f469b686b19ee5de39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pWIND: {x: 0, y: 5, z: 0}
   pFIXINDEX: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a000000
 --- !u!23 &1553528483
 MeshRenderer:
@@ -15659,14 +15604,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1553537750}
-  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -0, y: 76.5, z: 23.1}
+  m_LocalRotation: {x: 0, y: 0.70710677, z: 0.70710677, w: 0}
+  m_LocalPosition: {x: 0.0000029802322, y: 76.5, z: 23.099998}
   m_LocalScale: {x: 12, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 628172561}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -90, y: -90, z: 270}
 --- !u!64 &1553537756
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15743,8 +15688,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b778ede3c6a816f469b686b19ee5de39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pWIND: {x: 0, y: 20, z: 0}
-  pFIXINDEX: 6e0000006f000000700000007100000072000000730000007400000075000000760000007700000078000000
+  pFIXINDEX: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a000000
 --- !u!1 &1553876836
 GameObject:
   m_ObjectHideFlags: 0
@@ -16204,7 +16148,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b778ede3c6a816f469b686b19ee5de39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pWIND: {x: 0, y: 10, z: 0}
   pFIXINDEX: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a000000
 --- !u!23 &1660389957
 MeshRenderer:
@@ -16553,7 +16496,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b778ede3c6a816f469b686b19ee5de39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pWIND: {x: 0, y: 20, z: 0}
   pFIXINDEX: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a000000
 --- !u!23 &1687288359
 MeshRenderer:
@@ -16806,7 +16748,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b778ede3c6a816f469b686b19ee5de39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pWIND: {x: 0, y: 25, z: 0}
   pFIXINDEX: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a000000
 --- !u!23 &1704716368
 MeshRenderer:
@@ -16919,7 +16860,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b778ede3c6a816f469b686b19ee5de39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pWIND: {x: 0, y: 20, z: 0}
   pFIXINDEX: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a000000
 --- !u!23 &1706388031
 MeshRenderer:
@@ -18243,7 +18183,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b778ede3c6a816f469b686b19ee5de39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pWIND: {x: 0, y: 10, z: 0}
   pFIXINDEX: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a000000
 --- !u!23 &1930245010
 MeshRenderer:
@@ -18673,7 +18612,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b778ede3c6a816f469b686b19ee5de39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pWIND: {x: 0, y: 25, z: 0}
   pFIXINDEX: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a000000
 --- !u!23 &1974741381
 MeshRenderer:
@@ -18893,7 +18831,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b778ede3c6a816f469b686b19ee5de39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pWIND: {x: 0, y: 5, z: 0}
   pFIXINDEX: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a000000
 --- !u!23 &1997291176
 MeshRenderer:
@@ -19220,7 +19157,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b778ede3c6a816f469b686b19ee5de39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pWIND: {x: 0, y: 10, z: 0}
   pFIXINDEX: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a000000
 --- !u!23 &2024460535
 MeshRenderer:
@@ -19333,7 +19269,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b778ede3c6a816f469b686b19ee5de39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pWIND: {x: 0, y: 20, z: 0}
   pFIXINDEX: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a000000
 --- !u!23 &2041217323
 MeshRenderer:
@@ -19446,7 +19381,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b778ede3c6a816f469b686b19ee5de39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pWIND: {x: 0, y: 20, z: 0}
   pFIXINDEX: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a000000
 --- !u!23 &2048965579
 MeshRenderer:
@@ -19772,7 +19706,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b778ede3c6a816f469b686b19ee5de39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pWIND: {x: 0, y: 25, z: 0}
   pFIXINDEX: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a000000
 --- !u!23 &2075553669
 MeshRenderer:
@@ -19992,7 +19925,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b778ede3c6a816f469b686b19ee5de39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pWIND: {x: 0, y: 10, z: 0}
   pFIXINDEX: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a000000
 --- !u!23 &2087212248
 MeshRenderer:
@@ -20118,7 +20050,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b778ede3c6a816f469b686b19ee5de39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pWIND: {x: 0, y: 5, z: 0}
   pFIXINDEX: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a000000
 --- !u!23 &2097894248
 MeshRenderer:
@@ -20605,7 +20536,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b778ede3c6a816f469b686b19ee5de39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pWIND: {x: 0, y: 25, z: 0}
   pFIXINDEX: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a000000
 --- !u!23 &2121453293
 MeshRenderer:
@@ -20731,7 +20661,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b778ede3c6a816f469b686b19ee5de39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pWIND: {x: 0, y: 25, z: 0}
   pFIXINDEX: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a000000
 --- !u!23 &2122763689
 MeshRenderer:
@@ -20857,7 +20786,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b778ede3c6a816f469b686b19ee5de39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pWIND: {x: 0, y: 10, z: 0}
   pFIXINDEX: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a000000
 --- !u!23 &2124904618
 MeshRenderer:
@@ -20983,7 +20911,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b778ede3c6a816f469b686b19ee5de39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pWIND: {x: 0, y: 5, z: 0}
   pFIXINDEX: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a000000
 --- !u!23 &2142887131
 MeshRenderer:
