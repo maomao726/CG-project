@@ -357,6 +357,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Camera.cs"
 "Assets/Camera_rotate.cs"
+"Assets/Cloth_simulation.cs"
 "Assets/materialColor.cs"
 "Assets/Test.cs"
 "Assets/Wind.cs"

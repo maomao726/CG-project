@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638081445575121719
+      ticks: 638082220924588329
     m_Hash: 459165971
   m_LockFileStatus:
     m_FilePath: C:/Users/yuchen/Desktop/CG-project/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638081445575121719
+      ticks: 638082220924598301
     m_Hash: 1481534759
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
