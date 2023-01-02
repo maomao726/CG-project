@@ -11,7 +11,7 @@ public class Cloth_simulation : MonoBehaviour{
 
     // static variables
     static Vector3 wind;
-
+    Vector3 wind_local;
     // private variables
     Mesh mesh;
     Particles particles;
@@ -19,7 +19,7 @@ public class Cloth_simulation : MonoBehaviour{
     List<SpringDamper> springdampers;
     int height;
     int width;
-
+    Quaternion wind_rotation;
     // Start is called before the first frame update
     void Start(){   
         // initilize variables
@@ -30,7 +30,11 @@ public class Cloth_simulation : MonoBehaviour{
         springdampers = new List<SpringDamper>();
         height = 11;
         width = 11;
-
+        wind_rotation = GetComponent<Transform>().rotation;
+        wind_rotation.y = -wind_rotation.y;
+        wind_rotation.z = -wind_rotation.z;
+        wind_rotation.w = -wind_rotation.w;
+        Debug.Log(wind_rotation);
         // upper triangles
         for(int i = 0; i < height - 1; i++){
             for(int j = 0; j < width - 1; j++){
@@ -131,6 +135,7 @@ public class Cloth_simulation : MonoBehaviour{
         else if(Input.GetKey("v")){ wind.y -= step; }
         else if(Input.GetKey("b")){ wind.z += step; }
         else if(Input.GetKey("n")){ wind.z -= step; }
+        wind_local = wind_rotation * wind;
         print("wind(" + wind.x + ", " + wind.y + ", " + wind.z + ")");
     }
 
@@ -221,7 +226,7 @@ public class Cloth_simulation : MonoBehaviour{
                             particles.vel[triangles[i].idx3]) / 3.0f;
             
             // close speed = speed difference between triangle and wind 
-            Vector3 velc = velt - Vector3.Scale(wind, wind_coef);
+            Vector3 velc = velt - Vector3.Scale(wind_local, wind_coef);
 
             // larger cross area will get large force by wind
             float crossarea = (velc.magnitude == 0) ? 0 : area * Vector3.Dot(velc, norm) / velc.magnitude;
